@@ -33,6 +33,33 @@
   - The cloud increases OpEx spending and reduces CapEx spending
 ### Consumption-based Model: Pay for what you use
 ### Fixed price model: you provision resources and pay for those instances whether you use them or not. 
+### Serverless Architecture: 
+- A cloud computing execution model where the cloud provider dynamically manages the allocation and provisioning of servers.
+-  Hosted as a pay-as-you-go model based on use. Resources are stateless, servers ephemeral, and often capable of being triggered.
+- Example: Function as a service
+
+### PaaS vs Serverless
+![Screen Shot 2025-02-01 at 12 28 11 PM](https://github.com/user-attachments/assets/22a53662-e7cd-4f3b-acb4-05a6fad3dced)
+
+### WORD ASSOCIAITON: SERVERLESS
+- LOGIC APP
+- FUNCTIONS
+- EVENT GRID
+
+### Logic App
+- A cloud service that helps you schedule, automate, and orchestrate tasks, business processes, and workflows
+- You can choose from a gallery of hundreds of pre-built connectors for MSFT & 3rd party services
+- Logic App is the foundation for power automate (MS Flow)
+
+### Functions
+- An event driven, compute-on-demand experience that extends the existing Azure application platform with capabilities to implement code __triggered by events__ occuring in Azure as well as on-premises systems.
+- This enables billing per execution rather than by time
+
+### Event grid
+- Enables you to easily __manage events__ across many different Azure services and applications
+- Once a subscription is created, Event Grid will __push__ events to the configured destination
+- Makes it easy for any developer to utilize the "push" model instead of the inefficient "pull" across their Serverless architecture.
+- Like Azure functions, it is pay per use
 
 
        
